@@ -1,5 +1,5 @@
 # find image list:
-# az vm image list --location "west europe" --publisher "MicrosoftWindowsServer" --offer "WindowsServer" --sku "2019-Datacenter" --all -o table
+# az vm image list --location "uksouth" --publisher "MicrosoftWindowsServer" --offer "WindowsServer" --sku "2019-Datacenter" --all -o table
 variable "vm_config" {
   type = map(object({
     name               = string
